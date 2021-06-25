@@ -1,0 +1,140 @@
+<!-- <?php
+session_start();
+/*if (empty($_SERVER['HTTPS'])) {
+	header("Location: https://enigmadigm.com/gj-d&d");
+}*/
+// File modification date tracker
+$lastmodtimestamp = filemtime(__FILE__);
+$lastmoddate = date('Y-m-d H:i:s', $lastmodtimestamp);
+// View count cookie
+$gj_cookie = "gjdnd_views";
+$gjc_num = 1;
+if (isset($_COOKIE[$gj_cookie])) {
+	if (is_numeric($_COOKIE[$gj_cookie])) {
+		$gjc_num = intval($_COOKIE[$gj_cookie]) + 1;
+	}
+	setcookie($gj_cookie, "$gjc_num", time()+60*60*24*365*2);
+} else {
+	setcookie($gj_cookie, "1", time()+60*60*24*365*2);
+}
+?> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GJ D&D Backstory - Hauge</title>
+	<meta name="author" content="Rooskie">
+	<meta name="description" content="Character backstory and more for D&D character Gandalf the Jesus.">
+	<meta name="keywords" content="d&d, dnd, stefan, hauge, solstice, oconomowoc, activites, biography, fiction, story, character, sheet, old, background">
+	<meta name="subtitle" content="D&D Information and Background">
+	<meta name="topic" content="D&D">
+	<!-- fonts -->
+	<!-- <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'> -->
+	<!-- <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'> -->
+	<!-- <link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'> -->
+	<!-- <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'> -->
+	<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Convergence' rel='stylesheet'>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+	<link rel="stylesheet" type="text/css" href="https://enigmadigm.com/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="https://juniperfonts.enigmadigm.com/google-sans-woffwoff2conv/stylesheet.css">
+    <link rel="stylesheet" href="static/css/master.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/925f6dce39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Page heading w/ navbar -->
+	<header>
+		<div class="navbar">
+
+			<!-- Was login indicator, working on login system so turned it back into comment (current logo 'EngimaDigm' below it)-->
+			<!--<a href="https://www.enigmadigm.com" style="background-color: brown; font-weight: bold; font-family: Armata">Logged out</a>-->
+			<a href="https://digmsl.link/2Te3GOW" style="background-color: #492365;font-weight: bold;font-family: 'Google Sans';" title="OASD Virtual Reality Support">OASD VR</a>
+			<!--<a href="https://digmsl.link/2Te3GOW" style="font-family: Armata">Home</a>-->
+		</div>
+	</header>
+	<main>
+		<div class="article-container">
+			<div>
+				<h3 style="margin: 1px 0;">OASD VR Support</h3>
+				<h4 style="margin: 1px 0;">Virtual Reality - Tech Support</h4>
+			</div>
+			<hr>
+			<h6 style="font-weight: bold;">Contents</h6>
+			<ul id="article-contents" class="article-contents" start="10"></ul>
+			<h6 id="a_c_10" class="article-chapter" style="font-weight: bold;">Overview</h6>
+            <p>
+                The OASD has virtual reality equipment that provides teachers with the means to expand their classsrooms, and the content that students can absorb.
+            </p>
+            <p>
+                The equipment comes in 30 headset sets. The two cases containing the equipment should hold everything necessary to run a virtual excursion. The following is the manifest of the contents of the cases:
+            </p>
+            <ul>
+                <li>Headsets (30)</li>
+                <li>Headset hand controls (30)</li>
+                <li>Ear buds (30)</li>
+                <li>Charging stations (3)</li>
+                <li>Class use only router (1)</li>
+                <li>360 HD Camera (1)</li>
+                <li>Miscellaneous service cords</li>
+            </ul>
+			<h6 id="a_c_11" class="article-chapter" style="font-weight: bold;">Before Use</h6>
+            <p>
+                These intructions start before a case is even opened. Following them should ease and quicken the process of getting into VR.
+            </p>
+            <p class="alert-warning">
+                The headset/controller pairing numbers are important to follow. All of the devices have been pre-paired to make it possible to use without confusion about controllers.
+            </p>
+            <ol>
+                <li>Instruct users that the software configuration of the devices should not be touched as to not make these intructions irrelevant</li>
+                <li>Once the case is opened:
+                    <ol>
+                        <li>Take the router and plug it in to a wall socket <img src="static/assets/44xxi909.bmp" width="100" height="100" alt="The Router: the box with a yellow warning on the top"><br><span class="alert-warning">Wait for the 2.4GHz and 5GHz lights to illuminate before turning on headsets</span></li>
+                        <li>Have students take one headset per-person</li>
+                        <li>Hand each controller out to the person with the identically-numbered headset</li>
+                    </ol>
+                </li>
+            </ol>
+			<h6 id="a_c_12" class="article-chapter" style="font-weight: bold;">Using/Next Steps</h6>
+            <ol>
+                <li>Don headsets and press and hold the power button on the right side</li>
+                <li>When the headset is on and it asks the user to wake up the controller, take the paired controller and hold the lower circular button until the screen changes</li>
+                <li>The users should now be on a home screen with a large white window saying something like "no internet"</li>
+                <li></li>
+            </ol>
+			<h6 id="a_c_13" class="article-chapter" style="font-weight: bold;">FAQ</h6>
+            <ul>
+                <li><strong>The headset is on, but when the controller home button is pressed, nothing happens</strong><br>If the controller is dead, the headset cannot be used. Try to put it on a charger. The controllers are very sensitive, and some will only charge on some USB-C cables.</li>
+                <li><strong>The router has no internet!</strong><br>The router is not meant to provide internet access, only a link between the class devices. This is useful when doing group exploration.</li>
+                <li><strong>It says there is no internet on the home page of the headset</strong><br>This is expected, especially if the device is connected to the provided router. The error is due to the deprecation of the software the headsets use.</li>
+                <li><strong>The headset is too small</strong><br>Try to adjust the size of the head support using the knob at the back</li>
+                <li><strong>Both the headset and the controller are on, but they aren't connecting</strong><br>They probably are not paired. First, verify that the pair number for the controller and the headset are the same. Then, press both volume buttons on the headset at the same time (right side, under power button). Try to press the controller home button again.</li>
+            </ul>
+			<script src="static/js/element_for_element.js"></script>
+			<script type="text/javascript">elementForEveryElement("article-chapter")</script>
+			<!-- <div style="height:35px">
+				<p style="float:left">Last Modified: <?php echo $lastmoddate; ?></p>
+				<p style="float:right">Viewed: <?php echo $gjc_num; ?> times</p>
+			</div> -->
+		</div>
+	</main>
+	<!-- Footer w/ Copyright -->
+	<footer>
+		<div id="footer-navigation-container">
+			<div class="footer-navigation-box" id="bottom-link-section">
+				<h2>TECH SUPPORT</h2>
+				<a href="https://sites.google.com/oasd.org/oasdtech/home">Home</a>
+			</div>
+			<div class="footer-navigation-box" id="bottom-link-section">
+				<h2>TEMPORARY</h2>
+				<a href="https://hauge.rocks">&copy; 2021 Stefan Hauge - All Rights Reserved</a>
+			</div>
+		</div>
+		<!-- <p id="footer-copyright">&copy; 2021 Stefan Hauge - All Rights Reserved</p> -->
+	</footer>
+</body>
+</html>
